@@ -5,7 +5,8 @@ a simple react app for the WooCommerce store owners/store managers to efficientl
 1. Faster - No need to login to your wordpress admin panel or your website
 2. As the default WordPress or WooCommerce search function is not accuracy, this app provide a filtered search result such as keywords in product title or keywords in product attibute. 
 3. You can make your own .command file: create an empty myCommandScript.txt file ,add
-```#! /bin/bash 
+```
+#! /bin/bash 
 cd ~/this-repo-dir-in-your-computer
 npm start
 ```
