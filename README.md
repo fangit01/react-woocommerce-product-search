@@ -1,4 +1,4 @@
-# react-woocommerce-product-search
+# React-woocommerce-product-search
 a simple react app for the WooCommerce store owners/store managers to efficiently search products in your store.
 
 # Benefits
@@ -9,8 +9,7 @@ a simple react app for the WooCommerce store owners/store managers to efficientl
 cd ~/this-repo-dir-in-your-computer
 npm start
 ```
-change file extension from .txt to .command
-open terminal:  
+change file extension from .txt to .command then open terminal:  
 ```
 chmod u+x ~/myCommandScript.command
 ```
@@ -21,10 +20,11 @@ chmod u+x ~/myCommandScript.command
 * Please keep this file in a private computer as anyone who can access this file can copy your api keys, thus fetch private data such as customer details / orders from your website.
 
 # HOW TO USE
-1. Go to your WooCommerce setting, generate a read-only api keys. 
+1. go to your WooCommerce setting, generate a read-only api keys. 
 2. in the src/app.js, add your website, api keys
-3. npm install
-4. npm start
+3. the author search is about searching a product attibute, you can modify your own by editing related lines. 
+4. npm install
+5. npm start
 
 # Screenshot
 ![screenshot](./screenshot.jpeg?raw=true "screenshot")
