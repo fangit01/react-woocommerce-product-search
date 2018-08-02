@@ -133,7 +133,7 @@ class App extends Component {
     WooCommerce.get(`products?search=${this.state.product_keywords}&per_page=100`, (err, data, res) => {
       if (data.statusCode === 200 && JSON.parse(res).length !== 0) {
         const book_array = (JSON.parse(res));
-        const filtered_array = book_array.filter(el => el.name.includes(this.state.product_keywords))
+        const filtered_array = book_array.filter(el => el.name.toUpperCase().includes(this.state.product_keywords.toUpperCase()))
         this.setState({
           search_status: 'Success,following book(s) contain searched keywords in their titles',
           keywords_or_author_search_result_array: filtered_array
